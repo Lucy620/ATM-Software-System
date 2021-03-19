@@ -36,3 +36,11 @@
 210319-16:58:01 [INFO] -- PollAck: CardReaderHandler is up!
 210319-16:58:01 [INFO] -- PollAck: KeypadHandler is up!
 210319-16:58:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:59:01 [INFO] -- Poll: TimesUp 67847 0
+210319-16:59:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:59:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:59:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-17:00:01 [INFO] -- Poll: TimesUp 59435 0
+210319-17:00:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-17:00:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-17:00:01 [INFO] -- PollAck: KeypadHandler is up!
