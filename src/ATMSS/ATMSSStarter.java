@@ -10,6 +10,8 @@ import ATMSS.ATMSS.ATMSS;
 import ATMSS.CardReaderHandler.CardReaderHandler;
 import ATMSS.KeypadHandler.KeypadHandler;
 import ATMSS.TouchDisplayHandler.TouchDisplayHandler;
+import ATMSS.AdvicePrinterHandler.AdvicePrinterHandler;
+import ATMSS.CashCollector.CashCollectorHandler;
 
 import com.sun.nio.sctp.PeerAddressChangeNotification;
 import javafx.application.Platform;
@@ -24,6 +26,7 @@ public class ATMSSStarter extends AppKickstarter {
     protected KeypadHandler keypadHandler;
     protected TouchDisplayHandler touchDisplayHandler;
     protected AdvicePrinterHandler advicePrinterHandler;
+    protected CashCollectorHandler cashCollectorHandler;
 
 
     //------------------------------------------------------------
@@ -64,6 +67,7 @@ public class ATMSSStarter extends AppKickstarter {
 	    keypadHandler = new KeypadHandler("KeypadHandler", this);
 	    touchDisplayHandler = new TouchDisplayHandler("TouchDisplayHandler", this);
 	    advicePrinterHandler = new AdvicePrinterHandler("AdvicePrinterHandler",this);
+	    cashCollectorHandler = new CashCollectorHandler("CashCollectorHandler",this);
 	} catch (Exception e) {
 	    System.out.println("AppKickstarter: startApp failed");
 	    e.printStackTrace();
@@ -77,6 +81,7 @@ public class ATMSSStarter extends AppKickstarter {
 	new Thread(keypadHandler).start();
 	new Thread(touchDisplayHandler).start();
 	new Thread(advicePrinterHandler).start();
+	new Thread(cashCollectorHandler).start();
     } // startHandlers
 
 
@@ -92,6 +97,7 @@ public class ATMSSStarter extends AppKickstarter {
 	keypadHandler.getMBox().send(new Msg(id, null, Msg.Type.Terminate, "Terminate now!"));
 	touchDisplayHandler.getMBox().send(new Msg(id, null, Msg.Type.Terminate, "Terminate now!"));
 	advicePrinterHandler.getMBox().send(new Msg(id, null, Msg.Type.Terminate, "Terminate now!"));
+	cashCollectorHandler.getMBox().send(new Msg(id, null, Msg.Type.Terminate, "Terminate now!"));
 	timer.getMBox().send(new Msg(id, null, Msg.Type.Terminate, "Terminate now!"));
     } // stopApp
 } // ATM.ATMSSStarter
