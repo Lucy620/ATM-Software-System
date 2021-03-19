@@ -1,0 +1,38 @@
+210319-16:51:00 [INFO] -- 
+210319-16:51:00 [INFO] -- 
+210319-16:51:00 [INFO] -- ============================================================
+210319-16:51:00 [INFO] -- ATMSSStarter: Application Starting...
+210319-16:51:01 [INFO] -- AdvicePrinterHandler: starting...
+210319-16:51:01 [INFO] -- TouchDisplayHandler: starting...
+210319-16:51:01 [INFO] -- timer: starting...
+210319-16:51:01 [INFO] -- KeypadHandler: starting...
+210319-16:51:01 [INFO] -- CardReaderHandler: starting...
+210319-16:51:01 [INFO] -- ATMSS: starting...
+210319-16:52:01 [INFO] -- Poll: TimesUp 93385 0
+210319-16:52:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:52:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:52:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:53:01 [INFO] -- Poll: TimesUp 34218 0
+210319-16:53:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:53:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:53:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:54:01 [INFO] -- Poll: TimesUp 59363 0
+210319-16:54:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:54:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:54:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:55:01 [INFO] -- Poll: TimesUp 22771 0
+210319-16:55:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:55:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:55:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:56:01 [INFO] -- Poll: TimesUp 22547 0
+210319-16:56:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:56:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:56:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:57:01 [INFO] -- Poll: TimesUp 87000 0
+210319-16:57:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:57:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:57:01 [INFO] -- PollAck: TouchDisplayHandler is up!
+210319-16:58:01 [INFO] -- Poll: TimesUp 76741 0
+210319-16:58:01 [INFO] -- PollAck: CardReaderHandler is up!
+210319-16:58:01 [INFO] -- PollAck: KeypadHandler is up!
+210319-16:58:01 [INFO] -- PollAck: TouchDisplayHandler is up!
